@@ -36,4 +36,12 @@ pip install -r requirements.txt
 ```
 
 ## Tapo Device
-[@BotFather](https://core.telegram.org/bots#botfather)
+Vedi dovumentazione [fishbigger Tapo](https://github.com/fishbigger/TapoP100)
+
+## Telegram
+Vedi documentazione [Telegram Api](https://core.telegram.org/) e [eternnoir Telegram Bot Api](https://github.com/eternnoir/pyTelegramBotAPI/)
+
+## Start
+```cmd
+python iot_bot.py
+```
