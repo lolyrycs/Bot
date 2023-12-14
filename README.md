@@ -1,11 +1,39 @@
 # Bot
 
-## Prerequisiti
+## Librerie github
+[Tapo](https://github.com/fishbigger/TapoP100)
+[Telegram](https://github.com/eternnoir/pyTelegramBotAPI/)
 
+## Prerequisiti
 Si presume che tu abbia ottenuto un token API con [@BotFather](https://core.telegram.org/bots#botfather). Chiameremo questo token TOKEN.
 
 ## Ini file
-Compila i file bot.ini con il TOKEN.
-Inizialmente ID_ADMIN può essere -1, al primo messaggio con il bot attivo verrà printato a schermo
+In tapo_lib creare il file tapo.ini
+```ini
+[Credentials]
+email=EMAIL
+password=PWD
+ip=IP_DEVICE
+```
+con le credenziali dell'account Tapo TpLink, l'ip del device può essere trovato nell'app in Impostazioni > Informazioni Dispositivo > Indirizzo IP
 
-**ATTENZIONE!** I file ini non devono MAI essere pushati sul repo principale!!!
+Nella cartella principale creare il file bot.ini
+```ini
+[Bot]
+key=TOKEN
+id_admin=-1
+```
+
+## Librerie
+Installare un virtualenv, aprire il cmd nella cartella principale 
+```cmd
+virtualenv venv
+```
+Ora dovrebbe apparire la scritta (venv) davanti alla linea di comando, altrimenti chiudere e riaprire il cmd.
+Insallare le dipendenze:
+```cmd
+pip install -r requirements.txt
+```
+
+## Tapo Device
+[@BotFather](https://core.telegram.org/bots#botfather)
