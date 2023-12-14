@@ -7,3 +7,5 @@ Si presume che tu abbia ottenuto un token API con [@BotFather](https://core.tele
 ## Ini file
 Compila i file bot.ini con il TOKEN.
 Inizialmente ID_ADMIN può essere -1, al primo messaggio con il bot attivo verrà printato a schermo
+
+**ATTENZIONE!** I file ini non devono MAI essere pushati sul repo principale!!!
